@@ -1,0 +1,172 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.actionmenu{
+    position: relative;
+    width: 18.8789vw;
+    height: 32.363vw;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow:  5px 5px 30px #000000,
+                 -5px -5px 30px #000000;
+}
+
+.store{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-cima{
+    padding: 0 20px;
+    width: 100%;
+    height: 23.438vw;
+    background: #0088d2;
+    border-top: 30px;
+    color: #fff;
+}
+
+.menu-cima span{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 1em;
+}
+.menu-cima h3{
+    padding-left: 1.5em;
+    font-size: 20px;
+}
+.menu-cima h1{
+    padding-left: 1em;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu-cima .text {
+    margin-top: 1.05vw;
+    font-size: 1.05vw;
+    font-weight: bold;
+}
+
+.slider {
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myslide{
+	display: none;
+	overflow: hidden;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: 0.8}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.8}
+    to {opacity: 1}
+  }
+
+
+.itens{
+    text-align: center;
+    width: 13.021vw;
+    height: 15.5vw;
+}
+
+.itens img{
+    width: 13.021vw;
+    height: 13.021vw;
+}
+
+.itens p{
+	font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.esq, .dir {
+	position: absolute;
+	top: 30%;
+	font-size: 1.9vw;
+	padding: 0.8vw;
+	cursor: pointer;
+	color: #fff;
+}
+
+.dir{
+	right: 0;
+}
+
+.seta:hover, .dir:hover{
+	color: #909090; /* blue */
+    transition: all 0.2s ease;
+}
+
+.seta:active {
+    transform: scale(1.1);
+	transition: all 0.5s ease;
+}
+
+
+.menu-baixo{
+    margin-top: 1vw;
+    padding: 0 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-baixo .text {
+	font-size: 1vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menu-baixo button{
+	margin-top: 1vw;
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+	border: none;
+    width: 11vw;
+    height: 2.5vw;
+    border-radius: 12px;
+    background: #0088d2;
+}
+
+.menu-baixo button:hover {
+    background: #0073b0;
+	transition: all 0.5s ease;
+}
+
+.menu-baixo button:active {
+    transform: scale(1.05);
+	transition: all 0.5s ease;
+}
+
