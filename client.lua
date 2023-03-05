@@ -108,7 +108,7 @@ Citizen.CreateThread(function()
 			local distance = GetDistanceBetweenCoords(CoordenadaX,CoordenadaY,cdz,x,y,z,true)
 
 			if distance <= 10 then
-				local riqz = 1
+				riqz = 1
 				DrawMarker(21,CoordenadaX,CoordenadaY,CoordenadaZ-0.6,0,0,0,0.0,0,0,0.5,0.5,0.4,186,186,186,80,0,0,0,1)
 				DrawMarker(27,CoordenadaX,CoordenadaY,CoordenadaZ-1,0,0,0,0.0,0,0,0.5,0.5,0.4,186,186,186,80,0,0,0,1)
 				if distance <= 1.2 then
@@ -162,7 +162,7 @@ Citizen.CreateThread(function()
 			local distance = GetDistanceBetweenCoords(locs[selecionado].x,locs[selecionado].y,cdz,x,y,z,true)
 			
 			if distance <= 3 then
-				local riqz = 1
+				riqz = 1
 				DrawMarker(21,locs[selecionado].x,locs[selecionado].y,locs[selecionado].z-0.6,0,0,0,0.0,0,0,0.5,0.5,0.4,255,0,0,50,0,0,0,1)
 				if distance <= 1.2 then
 					drawTxt("PRESSIONE  ~r~E~w~  PARA COLETAR "..string.upper(itemselected).."",4,0.5,0.93,0.50,255,255,255,180)
@@ -258,7 +258,7 @@ Citizen.CreateThread(function()
 	while true do
       local riqz = 1000
       if servico then
-		riqz = 5
+		riqz = 1
 		drawTxt("VÁ ATÉ O DESTINO PARA COLETAR ~g~"..string.upper(itemselected).."",4,0.270,0.93,0.45,255,255,255,200)
 		drawTxt("PRESSIONE ~r~F7~w~ SE DESEJA FINALIZAR A ROTA",4,0.270,0.905,0.45,255,255,255,200)
       end
